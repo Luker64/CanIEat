@@ -7,3 +7,21 @@
 //
 
 import Foundation
+
+class User {
+    
+    let name: String
+    let restrictions : [Restriction]
+    
+    init(name: String, restrictions : [Restriction]){
+        self.name = name
+        self.restrictions = restrictions
+    }
+}
+
+class UserDAO {
+    
+    func getUser() -> User {
+        return User(name: "Jurema", restrictions: [Restriction(name: "Lactose")])
+    }
+}
