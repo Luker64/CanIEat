@@ -37,7 +37,7 @@
                                 <rect key="frame" x="20" y="69" width="280" height="466"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="123" id="m3R-kU-AoD" customClass="ProductsTableViewCell" customModule="CanIEat" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="productCell" rowHeight="123" id="m3R-kU-AoD" customClass="ProductsTableViewCell" customModule="CanIEat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="280" height="123"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m3R-kU-AoD" id="Agh-fa-4bd">
@@ -82,6 +82,12 @@
                                                 <constraint firstAttribute="trailing" secondItem="s83-VG-AWJ" secondAttribute="trailing" constant="28.5" id="qwq-Ij-LhO"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="brandlbl" destination="7ci-Tg-syx" id="RIW-Zs-lkw"/>
+                                            <outlet property="portionlbl" destination="ipz-fi-Qid" id="GZ4-Zp-NtE"/>
+                                            <outlet property="productImage" destination="i8H-oo-BAe" id="GAt-1G-2bb"/>
+                                            <outlet property="productNamelbl" destination="oOs-LI-wpr" id="3cu-fJ-py9"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -97,6 +103,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="UPc-tR-V9r"/>
                     <connections>
+                        <outlet property="tableView" destination="Krm-z5-Lj5" id="B7I-7U-BI3"/>
                         <segue destination="80Z-6v-jPh" kind="show" id="2n3-TR-22x"/>
                     </connections>
                 </viewController>

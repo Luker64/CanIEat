@@ -12,14 +12,18 @@ var products = [Product]()
 
 class ProductsViewController: UIViewController{
     
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.dataSource = self
+        tableView.delegate = self
         products = ProductDAO.getList()
+        
     }
 
 }
 
-extension UITableViewDataSource{
+extension ProductsViewController: UITableViewDataSource{
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -38,12 +42,18 @@ extension UITableViewDataSource{
             
             let product = products[indexPath.row]
             
+            productCell.productImage.image = UIImage(named: product.imageName)
+            productCell.productNamelbl.text = product.name
+            productCell.brandlbl.text = product.brand
+            productCell.portionlbl.text = product.portion
             
         }
         return cell
     }
 }
 
-extension UITableViewDelegate{
-    
+extension ProductsViewController: UITableViewDelegate{
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 200.0
+    }
 }
