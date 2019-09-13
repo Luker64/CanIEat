@@ -12,12 +12,12 @@
 		3F1259C4232AC12E004CF2C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1259C2232AC12E004CF2C5 /* Main.storyboard */; };
 		3F1259C6232AC12F004CF2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1259C5232AC12F004CF2C5 /* Assets.xcassets */; };
 		3F1259C9232AC12F004CF2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1259C7232AC12F004CF2C5 /* LaunchScreen.storyboard */; };
-		3F1259D4232ACC62004CF2C5 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259D3232ACC62004CF2C5 /* ProductsTableViewController.swift */; };
 		3F1259D6232ACC7E004CF2C5 /* ProductInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259D5232ACC7E004CF2C5 /* ProductInfoViewController.swift */; };
 		3F1259D8232ACCC4004CF2C5 /* ScanResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259D7232ACCC4004CF2C5 /* ScanResultViewController.swift */; };
 		3F1259DA232ACCD5004CF2C5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259D9232ACCD5004CF2C5 /* Product.swift */; };
 		3F1259DC232ACCE0004CF2C5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259DB232ACCE0004CF2C5 /* User.swift */; };
 		3F1259DE232ACD15004CF2C5 /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259DD232ACD15004CF2C5 /* ProductsTableViewCell.swift */; };
+		3FB07910232C0A8F0079864E /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0790F232C0A8F0079864E /* ProductsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +28,12 @@
 		3F1259C5232AC12F004CF2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1259C8232AC12F004CF2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1259CA232AC12F004CF2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F1259D3232ACC62004CF2C5 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		3F1259D5232ACC7E004CF2C5 /* ProductInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoViewController.swift; sourceTree = "<group>"; };
 		3F1259D7232ACCC4004CF2C5 /* ScanResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultViewController.swift; sourceTree = "<group>"; };
 		3F1259D9232ACCD5004CF2C5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		3F1259DB232ACCE0004CF2C5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3F1259DD232ACD15004CF2C5 /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		3FB0790F232C0A8F0079864E /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +90,9 @@
 		3F1259D1232ACC0C004CF2C5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3F1259D3232ACC62004CF2C5 /* ProductsTableViewController.swift */,
 				3F1259D5232ACC7E004CF2C5 /* ProductInfoViewController.swift */,
 				3F1259D7232ACCC4004CF2C5 /* ScanResultViewController.swift */,
+				3FB0790F232C0A8F0079864E /* ProductsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -178,8 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1259C1232AC12E004CF2C5 /* ViewController.swift in Sources */,
-				3F1259D4232ACC62004CF2C5 /* ProductsTableViewController.swift in Sources */,
 				3F1259D8232ACCC4004CF2C5 /* ScanResultViewController.swift in Sources */,
+				3FB07910232C0A8F0079864E /* ProductsViewController.swift in Sources */,
 				3F1259D6232ACC7E004CF2C5 /* ProductInfoViewController.swift in Sources */,
 				3F1259BF232AC12E004CF2C5 /* AppDelegate.swift in Sources */,
 				3F1259DE232ACD15004CF2C5 /* ProductsTableViewCell.swift in Sources */,
