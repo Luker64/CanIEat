@@ -17,6 +17,7 @@
 		3F1259DA232ACCD5004CF2C5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259D9232ACCD5004CF2C5 /* Product.swift */; };
 		3F1259DC232ACCE0004CF2C5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259DB232ACCE0004CF2C5 /* User.swift */; };
 		3F1259DE232ACD15004CF2C5 /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259DD232ACD15004CF2C5 /* ProductsTableViewCell.swift */; };
+		3F19594E23300C1A00882F4B /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F19594D23300C1A00882F4B /* Storyboard2.storyboard */; };
 		3FB07910232C0A8F0079864E /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0790F232C0A8F0079864E /* ProductsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		3F1259D9232ACCD5004CF2C5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		3F1259DB232ACCE0004CF2C5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3F1259DD232ACD15004CF2C5 /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		3F19594D23300C1A00882F4B /* Storyboard2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard2.storyboard; sourceTree = "<group>"; };
 		3FB0790F232C0A8F0079864E /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +52,7 @@
 		3F1259B2232AC12E004CF2C5 = {
 			isa = PBXGroup;
 			children = (
+				3F19594D23300C1A00882F4B /* Storyboard2.storyboard */,
 				3F1259BD232AC12E004CF2C5 /* CanIEat */,
 				3F1259BC232AC12E004CF2C5 /* Products */,
 			);
@@ -66,12 +69,12 @@
 		3F1259BD232AC12E004CF2C5 /* CanIEat */ = {
 			isa = PBXGroup;
 			children = (
+				3F1259C2232AC12E004CF2C5 /* Main.storyboard */,
 				3F1259D2232ACC1C004CF2C5 /* Models */,
 				3F1259D1232ACC0C004CF2C5 /* Controllers */,
 				3F1259D0232ACBE3004CF2C5 /* Views */,
 				3F1259BE232AC12E004CF2C5 /* AppDelegate.swift */,
 				3F1259C0232AC12E004CF2C5 /* ViewController.swift */,
-				3F1259C2232AC12E004CF2C5 /* Main.storyboard */,
 				3F1259C5232AC12F004CF2C5 /* Assets.xcassets */,
 				3F1259C7232AC12F004CF2C5 /* LaunchScreen.storyboard */,
 				3F1259CA232AC12F004CF2C5 /* Info.plist */,
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F19594E23300C1A00882F4B /* Storyboard2.storyboard in Resources */,
 				3F1259C9232AC12F004CF2C5 /* LaunchScreen.storyboard in Resources */,
 				3F1259C6232AC12F004CF2C5 /* Assets.xcassets in Resources */,
 				3F1259C4232AC12E004CF2C5 /* Main.storyboard in Resources */,
