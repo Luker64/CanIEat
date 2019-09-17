@@ -13,6 +13,7 @@ var products = [Product]()
 class ProductsViewController: UIViewController{
     
     @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
@@ -20,7 +21,11 @@ class ProductsViewController: UIViewController{
         products = ProductDAO.getList()
         
     }
-
+    
+    @IBAction func teste(_ sender: Any) {
+        performSegue(withIdentifier: "showScan", sender: nil)
+        
+    }
 }
 
 extension ProductsViewController: UITableViewDataSource{

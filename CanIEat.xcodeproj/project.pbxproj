@@ -18,6 +18,7 @@
 		3F1259DC232ACCE0004CF2C5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259DB232ACCE0004CF2C5 /* User.swift */; };
 		3F1259DE232ACD15004CF2C5 /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259DD232ACD15004CF2C5 /* ProductsTableViewCell.swift */; };
 		3F19594E23300C1A00882F4B /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F19594D23300C1A00882F4B /* Storyboard2.storyboard */; };
+		3F93C7BA233143CA0037DEB3 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93C7B9233143CA0037DEB3 /* ScanViewController.swift */; };
 		3FB07910232C0A8F0079864E /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0790F232C0A8F0079864E /* ProductsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		3F1259DB232ACCE0004CF2C5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3F1259DD232ACD15004CF2C5 /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
 		3F19594D23300C1A00882F4B /* Storyboard2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard2.storyboard; sourceTree = "<group>"; };
+		3F93C7B9233143CA0037DEB3 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		3FB0790F232C0A8F0079864E /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 				3F1259D5232ACC7E004CF2C5 /* ProductInfoViewController.swift */,
 				3F1259D7232ACCC4004CF2C5 /* ScanResultViewController.swift */,
 				3FB0790F232C0A8F0079864E /* ProductsViewController.swift */,
+				3F93C7B9233143CA0037DEB3 /* ScanViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				3F1259DE232ACD15004CF2C5 /* ProductsTableViewCell.swift in Sources */,
 				3F1259DA232ACCD5004CF2C5 /* Product.swift in Sources */,
 				3F1259DC232ACCE0004CF2C5 /* User.swift in Sources */,
+				3F93C7BA233143CA0037DEB3 /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -320,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -335,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SRW897GB9;
 				INFOPLIST_FILE = CanIEat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -352,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SRW897GB9;
 				INFOPLIST_FILE = CanIEat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
