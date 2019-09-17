@@ -10,6 +10,8 @@ import UIKit
 
 var products = [Product]()
 
+var selectedProd : Product?
+
 class ProductsViewController: UIViewController{
     
     @IBOutlet weak var tableView: UITableView!
@@ -55,7 +57,22 @@ extension ProductsViewController: UITableViewDataSource{
         }
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedProd = ProductDAO.findId(indexPath[1])
+        performSegue(withIdentifier: "prodDetails", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "prodDetails"{
+            let destination = segue.destination as! ProductInfoViewController
+            destination.prod = selectedProd
+        }
+        
+    }
 }
+
+
 
 extension ProductsViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

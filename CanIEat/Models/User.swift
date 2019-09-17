@@ -21,7 +21,7 @@ class User {
 
 class UserDAO {
     
-    func getUser() -> User {
+    static func getUser() -> User {
         return User(name: "Jurema", restrictions: [Restriction(name: "Lactose")])
     }
 }

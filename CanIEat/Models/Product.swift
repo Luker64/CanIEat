@@ -62,6 +62,11 @@ class ProductDAO {
         }
         return Product(name: "NotFound", ingredients: "", portion: "a", energeticValue: 0, carbohidrates: 0, proteins: 0, totalFat: 0, fiber: 0, sodium: 0, brand: "", restrictions: [Restriction(name: "NULL")], imageName: "", barCode: barcode)
     }
+    
+    static func findId(_ id: Int) -> Product{
+        var prods = ProductDAO.getList()
+        return prods[id]
+    }
 }
 
 class Restriction{
