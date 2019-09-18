@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,13 @@
 		3F19594E23300C1A00882F4B /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F19594D23300C1A00882F4B /* Storyboard2.storyboard */; };
 		3F93C7BA233143CA0037DEB3 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93C7B9233143CA0037DEB3 /* ScanViewController.swift */; };
 		3FB07910232C0A8F0079864E /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0790F232C0A8F0079864E /* ProductsViewController.swift */; };
+		3FD8C1AD2332B23A00DD6153 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8C1AC2332B23A00DD6153 /* ChatController.swift */; };
+		3FD8C1B22332B39F00DD6153 /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8C1B12332B39F00DD6153 /* ChatService.swift */; };
+		3FD8C1B42332B3C600DD6153 /* MessageKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD8C1B32332B3C600DD6153 /* MessageKit.framework */; };
+		3FD8C1B62332B3CB00DD6153 /* Scaledrone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD8C1B52332B3CB00DD6153 /* Scaledrone.framework */; };
+		3FD8C1B82332B42B00DD6153 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8C1B72332B42B00DD6153 /* Extension.swift */; };
+		3FD8C1BA2332B45800DD6153 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8C1B92332B45800DD6153 /* Message.swift */; };
+		BE2E792349E75F738ABEC569 /* Pods_CanIEat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBDB393FBFC0A6616618C5E4 /* Pods_CanIEat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +45,15 @@
 		3F19594D23300C1A00882F4B /* Storyboard2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard2.storyboard; sourceTree = "<group>"; };
 		3F93C7B9233143CA0037DEB3 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		3FB0790F232C0A8F0079864E /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		3FD8C1AC2332B23A00DD6153 /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		3FD8C1B12332B39F00DD6153 /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
+		3FD8C1B32332B3C600DD6153 /* MessageKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MessageKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD8C1B52332B3CB00DD6153 /* Scaledrone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Scaledrone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD8C1B72332B42B00DD6153 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3FD8C1B92332B45800DD6153 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8598CF787432E9B93CD8F727 /* Pods-CanIEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanIEat.debug.xcconfig"; path = "Target Support Files/Pods-CanIEat/Pods-CanIEat.debug.xcconfig"; sourceTree = "<group>"; };
+		8D476CF28063934E424258DC /* Pods-CanIEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanIEat.release.xcconfig"; path = "Target Support Files/Pods-CanIEat/Pods-CanIEat.release.xcconfig"; sourceTree = "<group>"; };
+		BBDB393FBFC0A6616618C5E4 /* Pods_CanIEat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanIEat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD8C1B62332B3CB00DD6153 /* Scaledrone.framework in Frameworks */,
+				3FD8C1B42332B3C600DD6153 /* MessageKit.framework in Frameworks */,
+				BE2E792349E75F738ABEC569 /* Pods_CanIEat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +76,8 @@
 				3F19594D23300C1A00882F4B /* Storyboard2.storyboard */,
 				3F1259BD232AC12E004CF2C5 /* CanIEat */,
 				3F1259BC232AC12E004CF2C5 /* Products */,
+				66F1038AC62A92D1430AB878 /* Pods */,
+				751D43C9AE07041BB6A7E693 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +92,7 @@
 		3F1259BD232AC12E004CF2C5 /* CanIEat */ = {
 			isa = PBXGroup;
 			children = (
+				3FD8C1B02332B35C00DD6153 /* ChatBot */,
 				3F1259C2232AC12E004CF2C5 /* Main.storyboard */,
 				3F1259D2232ACC1C004CF2C5 /* Models */,
 				3F1259D1232ACC0C004CF2C5 /* Controllers */,
@@ -99,6 +121,7 @@
 				3F1259D7232ACCC4004CF2C5 /* ScanResultViewController.swift */,
 				3FB0790F232C0A8F0079864E /* ProductsViewController.swift */,
 				3F93C7B9233143CA0037DEB3 /* ScanViewController.swift */,
+				3FD8C1AC2332B23A00DD6153 /* ChatController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -112,6 +135,35 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		3FD8C1B02332B35C00DD6153 /* ChatBot */ = {
+			isa = PBXGroup;
+			children = (
+				3FD8C1B12332B39F00DD6153 /* ChatService.swift */,
+				3FD8C1B72332B42B00DD6153 /* Extension.swift */,
+				3FD8C1B92332B45800DD6153 /* Message.swift */,
+			);
+			path = ChatBot;
+			sourceTree = "<group>";
+		};
+		66F1038AC62A92D1430AB878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8598CF787432E9B93CD8F727 /* Pods-CanIEat.debug.xcconfig */,
+				8D476CF28063934E424258DC /* Pods-CanIEat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		751D43C9AE07041BB6A7E693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FD8C1B52332B3CB00DD6153 /* Scaledrone.framework */,
+				3FD8C1B32332B3C600DD6153 /* MessageKit.framework */,
+				BBDB393FBFC0A6616618C5E4 /* Pods_CanIEat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F1259CD232AC12F004CF2C5 /* Build configuration list for PBXNativeTarget "CanIEat" */;
 			buildPhases = (
+				850F77F59AB3F6DFF3F592E1 /* [CP] Check Pods Manifest.lock */,
 				3F1259B7232AC12E004CF2C5 /* Sources */,
 				3F1259B8232AC12E004CF2C5 /* Frameworks */,
 				3F1259B9232AC12E004CF2C5 /* Resources */,
+				78A57ED2D48A90C2375B5B69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +233,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78A57ED2D48A90C2375B5B69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CanIEat/Pods-CanIEat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CanIEat/Pods-CanIEat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CanIEat/Pods-CanIEat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		850F77F59AB3F6DFF3F592E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CanIEat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F1259B7232AC12E004CF2C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -187,12 +283,16 @@
 				3F1259C1232AC12E004CF2C5 /* ViewController.swift in Sources */,
 				3F1259D8232ACCC4004CF2C5 /* ScanResultViewController.swift in Sources */,
 				3FB07910232C0A8F0079864E /* ProductsViewController.swift in Sources */,
+				3FD8C1B82332B42B00DD6153 /* Extension.swift in Sources */,
+				3FD8C1AD2332B23A00DD6153 /* ChatController.swift in Sources */,
 				3F1259D6232ACC7E004CF2C5 /* ProductInfoViewController.swift in Sources */,
 				3F1259BF232AC12E004CF2C5 /* AppDelegate.swift in Sources */,
 				3F1259DE232ACD15004CF2C5 /* ProductsTableViewCell.swift in Sources */,
 				3F1259DA232ACCD5004CF2C5 /* Product.swift in Sources */,
+				3FD8C1BA2332B45800DD6153 /* Message.swift in Sources */,
 				3F1259DC232ACCE0004CF2C5 /* User.swift in Sources */,
 				3F93C7BA233143CA0037DEB3 /* ScanViewController.swift in Sources */,
+				3FD8C1B22332B39F00DD6153 /* ChatService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +436,7 @@
 		};
 		3F1259CE232AC12F004CF2C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8598CF787432E9B93CD8F727 /* Pods-CanIEat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -347,13 +448,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CanIEat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		3F1259CF232AC12F004CF2C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D476CF28063934E424258DC /* Pods-CanIEat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -365,7 +467,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CanIEat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
