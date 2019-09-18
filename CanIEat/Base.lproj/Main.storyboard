@@ -33,6 +33,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gpn-J2-AIu">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgroun.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MTR-1J-mpp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="599"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eu2-OY-m3O">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="599"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="aSW-b6-Ua8">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="599"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Krm-z5-Lj5">
                                 <rect key="frame" x="16" y="69" width="288" height="391"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -70,9 +87,18 @@
                                                     <color key="textColor" red="0.28359756019999999" green="0.28640545690000002" blue="0.28640545690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oaG-7I-ltg">
+                                                    <rect key="frame" x="-19" y="-97" width="323" height="569"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="oaG-7I-ltg"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.8108086833" green="1" blue="0.89184168659999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.63474175655407217" green="0.76806392766497456" blue="0.67359554869388394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="brandlbl" destination="7ci-Tg-syx" id="RIW-Zs-lkw"/>
                                             <outlet property="portionlbl" destination="ipz-fi-Qid" id="GZ4-Zp-NtE"/>
@@ -83,7 +109,7 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.55043029114150555" green="1" blue="0.6862369631131835" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.82948368787765503" green="0.95525616407394409" blue="0.87651306390762329" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Krm-z5-Lj5" firstAttribute="top" secondItem="xNr-HS-GTb" secondAttribute="top" constant="5" id="22Y-rv-lwX"/>
                             <constraint firstItem="Krm-z5-Lj5" firstAttribute="leading" secondItem="xNr-HS-GTb" secondAttribute="leading" constant="16" id="7SH-C8-rQ1"/>
@@ -95,7 +121,7 @@
                     <navigationItem key="navigationItem" id="UPc-tR-V9r">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="EzR-jl-C2P">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Yv2-OJ-Sji">
-                                <rect key="frame" x="233" y="7" width="71" height="30"/>
+                                <rect key="frame" x="233" y="10" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Scan"/>
                                 <connections>
@@ -115,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SbZ-9X-YBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2139.375" y="180"/>
+            <point key="canvasLocation" x="2139.375" y="178.75"/>
         </scene>
         <!--Scan View Controller-->
         <scene sceneID="VUb-OC-DTT">
@@ -156,8 +182,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aei-uk-mLS">
+                                <rect key="frame" x="0.0" y="-58" width="320" height="567"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgroun.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RRR-NU-ASr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="595"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mvg-fT-Gv2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="595"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="ejM-bU-QlD">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="595"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Wdc-rq-320">
-                                <rect key="frame" x="16" y="83" width="288" height="377"/>
+                                <rect key="frame" x="16" y="83" width="288" height="347"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="A4J-iR-ex6">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="152"/>
@@ -237,14 +280,14 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="rlo-mT-nVs">
-                                        <rect key="frame" x="0.0" y="156" width="288" height="221"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="rlo-mT-nVs">
+                                        <rect key="frame" x="0.0" y="156" width="288" height="191"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="wzH-oX-2xf">
-                                                <rect key="frame" x="0.0" y="0.0" width="288" height="109"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="85"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wll-5w-T4p">
-                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="54"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="288" id="Lpq-rp-s94"/>
                                                             <constraint firstAttribute="height" constant="54" id="bwo-44-UPC"/>
@@ -254,7 +297,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7D-rd-AQZ">
-                                                        <rect key="frame" x="0.0" y="62" width="288" height="21"/>
+                                                        <rect key="frame" x="0.0" y="38" width="288" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="0VQ-HO-XKH"/>
                                                             <constraint firstAttribute="width" constant="288" id="HQG-zr-8Si"/>
@@ -263,7 +306,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Portion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7D-ej-auv">
-                                                        <rect key="frame" x="0.0" y="91" width="288" height="18"/>
+                                                        <rect key="frame" x="0.0" y="67" width="288" height="18"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="288" id="AYo-yG-knM"/>
                                                             <constraint firstAttribute="height" constant="18" id="u6W-Fj-ZN8"/>
@@ -273,9 +316,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="n7D-rd-AQZ" firstAttribute="top" secondItem="wll-5w-T4p" secondAttribute="bottom" constant="8" id="B6o-TB-V43"/>
+                                                    <constraint firstItem="m7D-ej-auv" firstAttribute="top" secondItem="n7D-rd-AQZ" secondAttribute="bottom" constant="8" id="tAs-TO-iag"/>
+                                                </constraints>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUq-Eh-F8k">
-                                                <rect key="frame" x="0.0" y="118" width="288" height="103"/>
+                                                <rect key="frame" x="0.0" y="88" width="288" height="103"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="103" id="HbC-Ph-r1k"/>
                                                     <constraint firstAttribute="width" constant="288" id="nDM-V5-rtb"/>
@@ -286,11 +333,14 @@
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.8108086833" green="1" blue="0.89184168659999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="dUq-Eh-F8k" firstAttribute="top" secondItem="wzH-oX-2xf" secondAttribute="bottom" constant="9" id="VGS-ho-vYM"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.8108086833" green="1" blue="0.89184168659999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.63474175659999998" green="0.76806392769999998" blue="0.67359554870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Wdc-rq-320" firstAttribute="leading" secondItem="GM4-19-l5J" secondAttribute="leading" constant="16" id="1kK-1s-Wn7"/>
                             <constraint firstItem="Wdc-rq-320" firstAttribute="top" secondItem="GM4-19-l5J" secondAttribute="top" constant="19" id="CnR-Hq-ABb"/>
@@ -315,7 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wP7-Ym-C8Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3018.75" y="180"/>
+            <point key="canvasLocation" x="3016.875" y="178.75"/>
         </scene>
         <!--Scan Result View Controller-->
         <scene sceneID="bG1-IF-WZN">
@@ -325,6 +375,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bs2-K9-KoP">
+                                <rect key="frame" x="0.0" y="-85" width="320" height="650"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgroun.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ima-82-mJ3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="613"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aa1-jB-lU2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="650"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="XXG-d1-CLJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="650"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rS7-UG-KM6">
                                 <rect key="frame" x="16" y="82" width="300.5" height="368.5"/>
                                 <subviews>
@@ -450,7 +517,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7v3-dR-JBi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3768.75" y="-565"/>
+            <point key="canvasLocation" x="3768.75" y="-566.25"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="L3K-WZ-xEQ">
@@ -471,4 +538,7 @@
             <point key="canvasLocation" x="1079.7101449275362" y="150"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backgroun.jpg" width="749" height="506"/>
+    </resources>
 </document>
