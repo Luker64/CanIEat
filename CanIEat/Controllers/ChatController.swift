@@ -11,13 +11,7 @@ import MessageKit
 import InputBarAccessoryView
 
 
-
-
 class ChatController: MessagesViewController {
-    
-    @IBAction func ChatAction(_ sender: Any) {
-        performSegue(withIdentifier: "showNext", sender: nil)
-    }
     
     var chatService: ChatService!
     var messages: [Message] = []
@@ -40,6 +34,11 @@ class ChatController: MessagesViewController {
         
         chatService.connect()
     }
+    
+    @IBAction func ChatAction(_ sender: Any) {
+        performSegue(withIdentifier: "shownext", sender: nil)
+    }
+    
 }
 
 extension ChatController: MessagesDataSource {
