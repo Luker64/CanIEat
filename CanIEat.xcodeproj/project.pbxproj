@@ -18,6 +18,7 @@
 		3F1259DC232ACCE0004CF2C5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259DB232ACCE0004CF2C5 /* User.swift */; };
 		3F1259DE232ACD15004CF2C5 /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1259DD232ACD15004CF2C5 /* ProductsTableViewCell.swift */; };
 		3F19594E23300C1A00882F4B /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F19594D23300C1A00882F4B /* Storyboard2.storyboard */; };
+		3F8AFD5A23341B0B00BCD400 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8AFD5923341B0B00BCD400 /* back.jpg */; };
 		3F93C7BA233143CA0037DEB3 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93C7B9233143CA0037DEB3 /* ScanViewController.swift */; };
 		3FB07910232C0A8F0079864E /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0790F232C0A8F0079864E /* ProductsViewController.swift */; };
 		3FD8C1AD2332B23A00DD6153 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8C1AC2332B23A00DD6153 /* ChatController.swift */; };
@@ -43,6 +44,7 @@
 		3F1259DB232ACCE0004CF2C5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3F1259DD232ACD15004CF2C5 /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
 		3F19594D23300C1A00882F4B /* Storyboard2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard2.storyboard; sourceTree = "<group>"; };
+		3F8AFD5923341B0B00BCD400 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = SOURCE_ROOT; };
 		3F93C7B9233143CA0037DEB3 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		3FB0790F232C0A8F0079864E /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		3FD8C1AC2332B23A00DD6153 /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				3F19594D23300C1A00882F4B /* Storyboard2.storyboard */,
+				3F8AFD5923341B0B00BCD400 /* back.jpg */,
 				3F1259BD232AC12E004CF2C5 /* CanIEat */,
 				3F1259BC232AC12E004CF2C5 /* Products */,
 				66F1038AC62A92D1430AB878 /* Pods */,
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F19594E23300C1A00882F4B /* Storyboard2.storyboard in Resources */,
+				3F8AFD5A23341B0B00BCD400 /* back.jpg in Resources */,
 				3F1259C9232AC12F004CF2C5 /* LaunchScreen.storyboard in Resources */,
 				3F1259C6232AC12F004CF2C5 /* Assets.xcassets in Resources */,
 				3F1259C4232AC12E004CF2C5 /* Main.storyboard in Resources */,
