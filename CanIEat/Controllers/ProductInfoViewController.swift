@@ -30,12 +30,12 @@ class ProductInfoViewController: UIViewController {
         prodImage.image = UIImage(named: prod?.imageName ?? "")
         prodBrand.text = "Marca: \(prod?.brand ?? "")"
         prodPortion.text = "Porçāo: \(prod?.portion ?? "")"
-        prodEnergeticV.text = "Valor Energetico(kk): \(String(format:"%.2f", prod?.energeticValue ?? ""))"
-        prodCarbo.text = "Carboidratos(g): \(String(format:"%.2f", prod?.carbohidrates ?? ""))"
-        prodProteins.text = "Proteinas(g): \(String(format:"%.2f", prod?.proteins ?? ""))"
-        prodTotalFats.text = "Gorduras Totais()g: \(String(format:"%.2f", prod?.totalFat ?? ""))"
-        prodFiber.text = "Fibras(g): \(String(format:"%.2f", prod?.fiber ?? ""))"
-        prodSodium.text = "Sódio(g): \(String(format:"%.2f", prod?.sodium ?? ""))"
+        prodEnergeticV.text = "Valor Energetico (kcal): \(String(format:"%.2f", prod?.energeticValue ?? ""))"
+        prodCarbo.text = "Carboidratos (g): \(String(format:"%.2f", prod?.carbohidrates ?? ""))"
+        prodProteins.text = "Proteinas (g): \(String(format:"%.2f", prod?.proteins ?? ""))"
+        prodTotalFats.text = "Gorduras Totais (g): \(String(format:"%.2f", prod?.totalFat ?? ""))"
+        prodFiber.text = "Fibras (g): \(String(format:"%.2f", prod?.fiber ?? ""))"
+        prodSodium.text = "Sódio (g): \(String(format:"%.2f", prod?.sodium ?? ""))"
         prodIngredients.text = "Ingredientes: \(prod?.ingredients ?? "")"
     }
     
