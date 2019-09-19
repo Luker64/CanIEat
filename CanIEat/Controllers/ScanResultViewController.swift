@@ -49,10 +49,10 @@ class ScanResultViewController: UIViewController {
         }
         
         if canEat {
-            compatibility.backgroundColor = UIColor(named: "green")
-            compatibility.text = "Está compatível"
+            compatibility.backgroundColor = UIColor.green
+            compatibility.text = "Compatível"
         }else{
-            compatibility.text = "Nāo está compatível"
+            compatibility.text = "Nāo compatível"
         }
     }
     
